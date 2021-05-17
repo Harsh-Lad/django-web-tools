@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block title %}Web Tools - Homepage{% endblock title %}
+
+{% block css %}
+
+img{
+    height:100%;
+    widht:100%;
+    object-fit:contain;
+}
+
+{% endblock css %}
+
+{% block body %}
+
+<div class="container">
+    <div class="main-section d-flex flex-wrap justify-content-center">
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://i.imgur.com/QGo5isT.gif?noredirect" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shorten Urls</h5>
+              <p class="card-text">Get short url alternatives for the longer webiste urls</p>
+              <a href="/url_shortner" class="btn w-100 btn-primary" target="_blank" >Check It Out Now</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://www.speakgif.com/wp-content/uploads/2019/04/avengers-endgamethanos-deal-with-it.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Generate QR Code</h5>
+              <p class="card-text">Convert Your urls into scanable Qr Codes </p>
+              <a href="/generate_qr" class="btn w-100 btn-primary" target="_blank" >Check It Out Now</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://lh3.googleusercontent.com/proxy/X3ohdKoYy1gG2kI3MOlMu3JlQaguJe_5NU-EdX8VyTFmZgVMBJyugImMUA-PXXpxv1ZKMLGoXbMVqQ4Y6AtpEHNdbuU6oNs" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Phone No. Lookup</h5>
+              <p class="card-text">Enter any phone number and verify if the number is valid or not.</p>
+              <a href="/phoneInfo" class="btn w-100 btn-primary" target="_blank" >Check It Out Now</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://i.kym-cdn.com/photos/images/original/000/480/551/b04.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Generate Random Jokes</h5>
+              <p class="card-text">Have fun with a really cool random jokes generator</p>
+              <a href="/randJokes" class="btn w-100 btn-primary" target="_blank" >Check It Out Now</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://cdn.dribbble.com/users/2598999/screenshots/8659774/astronaut.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">News</h5>
+              <p class="card-text">Fetch live news regarding any topic</p>
+              <a href="/news" class="btn w-100 btn-primary" target="_blank" >Check It Out Now</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock body %}
